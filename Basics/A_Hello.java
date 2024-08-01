@@ -1,10 +1,11 @@
 // package com.company;
 
-public class A_Hello{	
-	
-	public static void main(String[]args){
-		System.out.println("Hello World");
-	}
+public class A_Hello {
+
+    public static void main(String[] args) {
+		
+        System.out.println("Hello World");
+    }
 }
 
 /*
@@ -26,4 +27,4 @@ public static void main(String[]args){..} :
 System.out.println("Hello World"):
 	The above code is used to display the output on the screen.
 	Anything passed inside the inverted commas is printed on the screen as plain text.
-*/
+ */
