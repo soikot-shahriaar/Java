@@ -10,7 +10,7 @@ Enter the number of rows: 6
 
 import java.util.Scanner;
 
-public class X_PatternPrinting {
+public class Y_PatternPrinting {
 
     public static void main(String[] args) {
         try (Scanner scanner = new Scanner(System.in)) {

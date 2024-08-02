@@ -21,8 +21,11 @@ public class Hello :
 	It is the entry point to the application.
 
 public static void main(String[]args){..} :
-	This is the main() method of our Java program.
-	Every Java program must contain the main() method.
+	This is the main() method of our Java program. Every Java program must contain the main() method.
+	public: The method is accessible from anywhere.
+	static: The method belongs to the class, not instances of the class.
+	void: The method does not return any value.
+	String[] args: Command-line arguments passed to the program.
 
 System.out.println("Hello World"):
 	The above code is used to display the output on the screen.

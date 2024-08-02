@@ -2,7 +2,7 @@
 
 import java.util.Scanner;
 
-public class Y_Factorial {
+public class X_Factorial {
 
     public static void main(String[] args) {
         try (Scanner scanner = new Scanner(System.in)) {
