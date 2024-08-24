@@ -1,0 +1,55 @@
+In Java, access modifiers are keywords that set the level of access for classes, methods, and variables. There are four main types of access modifiers: public, private, default (package-private), and protected.
+
+1. Public
+The public modifier means that the class, method, or variable is accessible from any other class, regardless of the package. Keyword: public
+
+Example:    public class MyClass {
+                public int myNumber;
+
+                public void myMethod() {
+                    // Accessible from anywhere
+                }
+            }
+
+
+2. Private
+The private modifier restricts the access to the class, method, or variable to within the same class only. It cannot be accessed from outside the class in which it is defined. Keyword: private
+
+Example:    public class MyClass {
+                private int myNumber;
+
+                private void myMethod() {
+                    // Accessible only within this class
+                }
+            }
+
+3. Default (Package-Private)
+If no access modifier is specified, the member is accessible only within its own package. This is often referred to as "package-private." No keyword (it’s the default when no access modifier is specified).
+
+Example:    class MyClass { // Default access, accessible within the same package
+                int myNumber; // Default access
+
+                void myMethod() {
+                    // Accessible within the same package
+                }
+            }
+
+4. Protected
+Scope: The protected modifier allows access to the member within the same package and by subclasses, even if they are in different packages. Keyword: protected
+
+Example:    public class MyClass {
+                protected int myNumber;
+
+                protected void myMethod() {
+                    // Accessible within the same package and by subclasses
+                }
+            }
+
+
+*** Summary of Access Levels ***
+
+Modifier    Class	Package Subclass    World
+public	    Yes	    Yes     Yes	        Yes
+protected	Yes	    Yes	    Yes	        No
+default	    Yes	    Yes	    No	        No
+private	    Yes	    No	    No	        No

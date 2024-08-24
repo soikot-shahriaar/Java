@@ -3,7 +3,7 @@ The ternary (conditional) operator in Java is a shorthand way to write simple if
 Syntax:  result = (condition) ? value1 : value2;
  */
 
-public class N_TernaryOperator {
+public class O_TernaryOperator {
 
     public static void main(String[] args) {
 

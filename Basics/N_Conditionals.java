@@ -2,7 +2,7 @@
 
 import java.util.Scanner;
 
-public class M_Conditionals {
+public class N_Conditionals {
 
     public static void main(String[] args) {
         try (Scanner scanner = new Scanner(System.in)) {

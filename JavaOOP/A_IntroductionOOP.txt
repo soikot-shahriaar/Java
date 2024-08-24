@@ -1,0 +1,85 @@
+What is Object-Oriented Programming?
+Object-Oriented Programming (OOP) is a way of designing software by using "objects." 
+These objects are like virtual things that we can create and interact with in our code. 
+Each object is made from a blueprint called a class.
+
+
+
+*** Key Concepts of OOP ***
+
+1. Classes and Objects:
+
+Class: Think of a class as a recipe. 
+       It tells us what ingredients (data) and steps (actions) are needed to create something.
+       Example: Think of a "class" as a recipe for baking cookies. 
+       The recipe tells us what ingredients (like flour, sugar, and eggs) we need and the steps to follow.
+
+Object: An object is what we get when we follow the recipe. 
+       It's a specific version of the class.
+       Example: An "object" is the actual cookie we bake using the recipe. 
+       If we follow the recipe multiple times, we can create several cookies, each being an individual object based on the same class (recipe).
+
+
+2. Encapsulation:
+
+This is about keeping everything related to a specific object together in one place (the class). 
+It also means keeping some details hidden so that they can't be accidentally changed.
+
+Example: Imagine a remote control for TV. The remote has buttons to change the channel or volume. 
+We don’t need to know how the remote works internally; we just press the buttons. 
+The internal workings of the remote (like the circuits) are hidden from us, and we can only interact with it through the buttons.
+This is like encapsulation, where certain details are hidden and only the necessary parts are exposed.
+
+
+3. Inheritance:
+
+Inheritance lets us create a new class based on an existing one. The new class automatically gets all the features of the old one, but we can add more features if we want.
+
+Example: Think of a family tree. Our parents pass on certain traits to us, like eye color or hair type. 
+Similarly, in OOP, a "child class" inherits traits (attributes and methods) from a "parent class."
+For instance, if there’s a general "Vehicle" class that describes common features like having wheels, 
+a "Car" class can inherit from Vehicle and add more specific details, like the number of doors.
+
+
+4. Polymorphism:
+
+Polymorphism means that objects from different classes can be treated as if they are from the same class, especially if they share the same methods. 
+It's like having one method that can do different things depending on the object.
+
+Example: Imagine we have a universal remote that can control TV, DVD player, and stereo. 
+Even though these devices are different, we can use the same remote to operate all of them.
+In OOP, polymorphism is like using the same interface (the remote) to work with different types of objects (TV, DVD player, stereo),
+each responding in its own way when we press a button.
+
+
+5. Abstraction:
+
+Abstraction is about showing only what is necessary and hiding the rest. It helps to keep things simple by not showing the complex details.
+Example: Think about how we use a coffee machine. We press a button, and it makes coffee. 
+We don’t need to know how the machine grinds the beans or heats the water; we just care about getting our coffee.
+Abstraction in OOP is similar: it hides the complicated details and only shows us what we need to know to use it, making things simpler and easier to manage.
+
+
+
+*** Modeling the Problem in OOP ***
+
+Noun (Class): What it is: The noun represents the things or entities we want to model in our program.
+              Example: Imagine we're building a system to manage employees in a company. 
+              The Employee is the noun, so we would create an "Employee" class.
+
+Adjective (Attributes): What it describes: Adjectives describe the characteristics or features of the entity.
+                        Example: For the Employee class, the attributes could be things like the employee's name, age, and salary.
+                        These are the qualities that define each employee.
+
+Verb (Methods): What it does: Verbs represent the actions or behaviors that the entity can perform.
+                Example: For an Employee, we might have methods like getSalary() to find out the employee's salary or increment() to increase the salary. 
+                These are the actions an employee can perform or have done to them.
+
+
+*** Why Use OOP? ***
+
+Modularity: Organizes code into manageable parts (classes/objects).
+Reusability: Allows reuse of existing classes in new projects.
+Maintainability: Keeps data and methods safe and easy to update.
+Flexibility: Simplifies handling complex tasks with adaptable code.
+

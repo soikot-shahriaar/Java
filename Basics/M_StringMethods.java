@@ -1,5 +1,5 @@
 
-public class O_StringMethods {
+public class M_StringMethods {
 
     public static void main(String[] args) {
         
