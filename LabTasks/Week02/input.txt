@@ -1,0 +1,6 @@
+Hello, this is the first line.
+Here's the second line of text.
+This file contains multiple lines of text.
+Feel free to modify it as needed.
+Now this is the fifth line.
+Here's the last line of text.
