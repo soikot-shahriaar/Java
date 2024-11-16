@@ -1,0 +1,51 @@
+Lab Task 06: Vehicle Rental System
+
+Objective:
+You are tasked to design a simple vehicle rental system. Follow the given instructions and driver code to create the necessary classes, inheritance structure, and interface.
+
+Problem Description:  
+The system should handle different types of vehicles, namely `Car` and `Motorcycle`. All vehicles should have common attributes, but each type of vehicle also has its own specific behavior and rental rate calculation. A `Rental` interface is required to enforce a `calculateRental` method for calculating rental cost, and there must be an abstract class that includes some general vehicle functionality.
+
+1. Interface Requirements:
+   - Create an interface `Rental` with a method `double calculateRental(int days)`.
+   
+2. Abstract Class Requirements:
+   - Use an abstract class `Vehicle` to hold common properties for all vehicles (e.g., `name`, `baseRate`).
+   - Include at least one abstract method in `Vehicle` for subclass implementation.
+
+3. Inheritance Requirements:
+   - Derive `Car` and `Motorcycle` classes from `Vehicle`.
+   - Both `Car` and `Motorcycle` should implement the `Rental` interface.
+   - The `Car` class should add specific properties (e.g., `int seatCapacity`), and the `Motorcycle` class should add other specific properties (e.g., `boolean hasSidecar`).
+   - Each class should implement the `calculateRental` method based on its unique rental rate.
+
+4. Driver Code:
+   - The provided main method will test various aspects of the vehicles and calculate rentals.
+   
+public class Tester {
+    public static void main(String[] args) {
+        Vehicle myCar = new Car("Sedan", 50.0, 5);
+        Vehicle myMotorcycle = new Motorcycle("Sport", 30.0, false);
+
+        System.out.println("Car Rental Cost for 3 days: $" + myCar.calculateRental(3));
+        System.out.println("Motorcycle Rental Cost for 3 days: $" + myMotorcycle.calculateRental(3));
+
+        System.out.println("Car Details: " + myCar);
+        System.out.println("Motorcycle Details: " + myMotorcycle);
+    }
+
+}
+
+Expected Output:
+
+Car Rental Cost for 3 days: $150.0
+Motorcycle Rental Cost for 3 days: $90.0
+Car Details: Car{name='Sedan', baseRate=50.0, seatCapacity=5}
+Motorcycle Details: Motorcycle{name='Sport', baseRate=30.0, hasSidecar=false}
+
+Instructions to Students:
+
+1. **Analyze the Driver Code and Output**: Determine the classes, inheritance structure, and methods required.
+2. **Design the Classes and Interfaces**: Identify common properties and methods for the abstract `Vehicle` class, specific properties for each subclass, and implement the `Rental` interface.
+3. **Implement the `calculateRental` method**: Each subclass should calculate rental based on its specific attributes and the base rate.
+4. **Override the `toString` Method**: Make sure each subclass prints its details in the required format.
